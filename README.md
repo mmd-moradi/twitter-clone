@@ -1,7 +1,7 @@
 # Full Stack Twitter Clone
 ![twitter-clone](https://github.com/mmd-moradi/twitter-clone/assets/110211422/565f387f-6dbe-4469-87a6-68c0b598780f)
 ------------
-This project is a full stack Twitter clone that allows users to create accounts, post tweets, follow other users, like tweets, comment on tweets, and edit their profile. It is built using a combination of modern web technologies and provides a seamless user experience.
+This project is a full stack Twitter clone that allows users to create accounts, post tweets, follow other users, like tweets, comment on tweets, and edit their profile. It is built using a combination of modern web technologies and provides a seamless user experience.This version of the Twitter clone features a **dark mode** interface.
 
 ## Technologies Used
 
