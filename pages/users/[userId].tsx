@@ -7,7 +7,7 @@ import { useRouter } from "next/router";
 import { ClipLoader } from "react-spinners";
 
 
-const userView = () => {
+const UserView = () => {
     const router = useRouter();
     const { userId } = router.query;
     const {data: fetchedUser, isLoading} = useUser(userId as string);
@@ -30,4 +30,4 @@ const userView = () => {
   )
 }
 
-export default userView;
+export default UserView;
