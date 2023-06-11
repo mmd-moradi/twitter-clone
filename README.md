@@ -1,7 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Full Stack Twitter Clone
+
+This project is a full stack Twitter clone that allows users to create accounts, post tweets, follow other users, like tweets, comment on tweets, and edit their profile. It is built using a combination of modern web technologies and provides a seamless user experience.
+
+## Technologies Used
+
+- TypeScript: A statically-typed superset of JavaScript that enhances development productivity and code quality.
+- React: A JavaScript library for building user interfaces.
+- Next.js: A React framework for building server-side rendered and statically generated applications.
+- Prisma: An ORM (Object-Relational Mapping) tool that simplifies database interactions.
+- MongoDB: A NoSQL document database for storing and retrieving data efficiently.
+- NextAuth.js: A library for authentication in Next.js applications, providing features like authentication providers and session management.
+
+## Features
+
+- **User Registration and Authentication**: Users can create accounts and log in securely using NextAuth.js, ensuring secure access to their account and protected routes.
+- **Tweet Creation**: Users can compose and post tweets, sharing their thoughts with their followers and the wider community.
+- **User Interaction**: Users can like tweets, comment on tweets, and follow other users, fostering engagement and connection within the platform.
+- **Unique User Profiles**: Each user has a unique profile page displaying their tweets, follower count, and following count.
+- **Profile Customization**: Users can upload a profile picture and edit their profile information, allowing personalization and expression on their profiles.
+- **Notifications**: Users receive notifications for new followers, likes, and comments, ensuring they stay updated with activity related to their account.
+
 
 ## Getting Started
 
+### Setup .env file
+You need to add the followings to your .env file.
+
+```js
+DATABASE_URL=
+NEXTAUTH_JWT_SECRET=
+NEXTAUTH_SECRET=
+```
 First, run the development server:
 
 ```bash
